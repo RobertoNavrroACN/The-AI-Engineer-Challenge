@@ -6,14 +6,12 @@ export default function Header({ title }) {
       <div className="container header-inner">
         <div className="header-badge">
           <span className="badge-dot" aria-hidden="true" />
-          Live demo
+          Air mail · the post is open
         </div>
-        <h1>
-          <span className="header-icon" aria-hidden="true">✦</span>
-          {title}
-        </h1>
+        <h1 className="header-title">{title}</h1>
         <p className="header-tagline">
-          Send a message to the API and watch the response light up.
+          Write down whatever&rsquo;s on your mind, drop it in the post, and a
+          thoughtful reply will find its way back to you.
         </p>
       </div>
     </header>
